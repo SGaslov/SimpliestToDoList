@@ -10,6 +10,8 @@
         android:id="@+id/toDoListRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/indigo_200"/>
+        android:background="@color/indigo_200"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-28dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

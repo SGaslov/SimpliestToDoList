@@ -26,59 +26,55 @@ class ListFragment : Fragment() {
 
         val toDoList: List<TaskItem> = listOf(
             TaskItem(
-                "Here you can find activities to practise your reading skills. Reading will help you to improve your understanding of the language and build your vocabulary. The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time.",
-                "Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                "1 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "Here you can find activities to practise your reading skills. Reading will help you to improve your understanding of the language and build your vocabulary. The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time.",
-                "Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                "2 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "Here you can find activities to practise your reading skills. Reading will help you to improve your understanding of the language and build your vocabulary. The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time.",
-                "Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                "3 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "Here you can find activities to practise your reading skills. Reading will help you to improve your understanding of the language and build your vocabulary. The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time.",
-                "Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                "4 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "Here you can find activities to practise your reading skills. Reading will help you to improve your understanding of the language and build your vocabulary. The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time.",
-                "Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                "5 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "Here you can find activities to practise your reading skills. Reading will help you to improve your understanding of the language and build your vocabulary. The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time.",
-                "Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                "6 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "Here you can find activities to practise your reading skills. Reading will help you to improve your understanding of the language and build your vocabulary. The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time.",
-                "Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                "7 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "Here you can find activities to practise your reading skills. Reading will help you to improve your understanding of the language and build your vocabulary. The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time.",
-                "Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                "8 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             )
         )
 
         val toDoListAdapter = ToDoListAdapter(toDoList)
+        val linearLayoutManager = LinearLayoutManager(requireActivity()).apply {
+            stackFromEnd = true
+        }
+
         val toDoListRecyclerView =
             view.findViewById<RecyclerView?>(R.id.toDoListRecyclerView).apply {
-                layoutManager = LinearLayoutManager(requireActivity())
+                layoutManager = linearLayoutManager
                 adapter = toDoListAdapter
             }
     }
