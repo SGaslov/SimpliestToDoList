@@ -41,7 +41,7 @@ class ToDoListAdapter(private val ToDoList: List<TaskItem>) :
                 val taskItem = ToDoList[position]
 
                 (holder as TaskItemViewHolder).apply {
-                    taskTextView.text = getTaskName(taskItem)
+                    taskTextView.text = taskItem.taskName
                     deadLineTextView.text = getDeadLineFormattedDate(taskItem)
                 }
             }
@@ -51,15 +51,6 @@ class ToDoListAdapter(private val ToDoList: List<TaskItem>) :
     private fun getDeadLineFormattedDate(taskItem: TaskItem): String {
         val format = SimpleDateFormat("yyyy.MM.dd\nHH:mm", Locale("ru", "RU"))
         return format.format(taskItem.deadLine.time)
-    }
-
-    private fun getTaskName(taskItem: TaskItem): String {
-        val taskNameMaxSymbolsNumber = 90
-        return if (taskItem.taskText.length <= taskNameMaxSymbolsNumber) {
-            taskItem.taskText
-        } else {
-            taskItem.taskText.take(taskNameMaxSymbolsNumber) + "..."
-        }
     }
 
     override fun getItemCount() = ToDoList.size + 1
@@ -84,6 +75,7 @@ class ToDoListAdapter(private val ToDoList: List<TaskItem>) :
     class AddItemButtonViewHolder(view: View) : ToDoListViewHolder(view)
 
     companion object {
+
         const val TASK_ITEM: Int = 0
         const val ADD_TASK_ITEM_BUTTON: Int = 1
     }
