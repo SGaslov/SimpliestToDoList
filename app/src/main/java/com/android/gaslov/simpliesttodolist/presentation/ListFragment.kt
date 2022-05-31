@@ -26,45 +26,61 @@ class ListFragment : Fragment() {
 
         val toDoList: List<TaskItem> = listOf(
             TaskItem(
+                0,
+                "1 Shawarma's name comes from the Arabic word for \"turning\"",
                 "1 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "2 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                0,
+                "1 Shawarma's name comes from the Arabic word for \"turning\"",
+                "1 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "3 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                0,
+                "1 Shawarma's name comes from the Arabic word for \"turning\"",
+                "1 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "4 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                0,
+                "1 Shawarma's name comes from the Arabic word for \"turning\"",
+                "1 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "5 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                0,
+                "1 Shawarma's name comes from the Arabic word for \"turning\"",
+                "1 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "6 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                0,
+                "1 Shawarma's name comes from the Arabic word for \"turning\"",
+                "1 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "7 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                0,
+                "1 Shawarma's name comes from the Arabic word for \"turning\"",
+                "1 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
             ),
             TaskItem(
-                "8 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
+                0,
+                "1 Shawarma's name comes from the Arabic word for \"turning\"",
+                "1 Shawarma's name comes from the Arabic word for \"turning\" -- a reference to how this favorite Middle Eastern sandwich's meaty filling cooks on a vertical spit. In adaptations that spread to the Mediterranean and Europe, shawarma has been reinterpreted as gyro in Greece or doner kebab in Germany, via Turkey.",
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 48),
                 GregorianCalendar(2018, Calendar.DECEMBER, 31, 14, 58)
-            )
+            ),
         )
 
         val toDoListAdapter = ToDoListAdapter(toDoList)
