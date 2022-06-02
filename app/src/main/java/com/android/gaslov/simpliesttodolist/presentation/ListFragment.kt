@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.android.gaslov.simpliesttodolist.R
@@ -13,6 +15,8 @@ import java.util.*
 
 
 class ListFragment : Fragment() {
+
+    private lateinit var toDoListAdapter: ToDoListAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -83,7 +87,14 @@ class ListFragment : Fragment() {
             ),
         )
 
-        val toDoListAdapter = ToDoListAdapter(toDoList)
+        toDoListAdapter = ToDoListAdapter(toDoList)
+
+        setUpRecyclerView(view)
+
+        setUpAddTaskClickListener()
+    }
+
+    private fun setUpRecyclerView(view: View) {
         val linearLayoutManager = LinearLayoutManager(requireActivity()).apply {
             stackFromEnd = true
         }
@@ -93,5 +104,18 @@ class ListFragment : Fragment() {
                 layoutManager = linearLayoutManager
                 adapter = toDoListAdapter
             }
+    }
+
+    private fun setUpAddTaskClickListener() {
+        toDoListAdapter.onAddTaskClickListener = {
+            requireActivity().supportFragmentManager.beginTransaction()
+                .add(
+                    R.id.toDoListFragmentContainerView,
+                    TaskItemFragment.newInstance("String1", "String2")
+                )
+                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                .addToBackStack(null)
+                .commit()
+        }
     }
 }

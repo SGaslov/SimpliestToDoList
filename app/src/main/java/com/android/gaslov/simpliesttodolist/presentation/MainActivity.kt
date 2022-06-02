@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.toDoListFragmentContainerView, ListFragment())
+                .addToBackStack(null)
                 .commit()
         }
     }

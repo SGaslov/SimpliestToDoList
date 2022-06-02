@@ -8,11 +8,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.android.gaslov.simpliesttodolist.R
 import com.android.gaslov.simpliesttodolist.domain.TaskItem
 import com.android.gaslov.simpliesttodolist.presentation.ToDoListAdapter.ToDoListViewHolder
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import java.text.SimpleDateFormat
 import java.util.*
 
 class ToDoListAdapter(private val ToDoList: List<TaskItem>) :
     RecyclerView.Adapter<ToDoListViewHolder>() {
+
+    var onAddTaskClickListener: (() -> Unit)? = null
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
@@ -45,6 +48,13 @@ class ToDoListAdapter(private val ToDoList: List<TaskItem>) :
                     deadLineTextView.text = getDeadLineFormattedDate(taskItem)
                 }
             }
+            ADD_TASK_ITEM_BUTTON -> {
+                val button = (holder as AddItemButtonViewHolder).addTaskButton
+
+                button.setOnClickListener {
+                    onAddTaskClickListener?.invoke()
+                }
+            }
         }
     }
 
@@ -72,7 +82,14 @@ class ToDoListAdapter(private val ToDoList: List<TaskItem>) :
         }
     }
 
-    class AddItemButtonViewHolder(view: View) : ToDoListViewHolder(view)
+    class AddItemButtonViewHolder(view: View) : ToDoListViewHolder(view) {
+
+        val addTaskButton: FloatingActionButton
+
+        init {
+            addTaskButton = view.findViewById(R.id.addTaskButton)
+        }
+    }
 
     companion object {
 
